@@ -10,7 +10,9 @@
       "wdth" 100;
   }
   
-  
+  .right-header {
+    float: right;
+  }
 
   .image-paragraph-container {
     display: flex; 
