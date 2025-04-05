@@ -1,7 +1,7 @@
 
 
 
-.sour-gummy {
+.sour-gummy-<uniquifier> {
     font-family: "Sour Gummy", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
@@ -26,7 +26,7 @@
 
 body{
     margin: 0;
-    font-family: 'sour-gummy';
+    font-family: 'sour-gummy-<uniquifier>';
     color:rgb(255, 0, 0);
     font-size: large;
     p.thicker {
