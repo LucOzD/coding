@@ -10,7 +10,7 @@
 
   .image-paragraph-container {
     display: flex; 
-    align-items: center;
+    align-items: left;
   }
   
   .image-paragraph-container img {
