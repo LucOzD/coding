@@ -24,15 +24,12 @@
 
 
 
-body{
+  body {
     margin: 0;
-    font-family: 'sour-gummy-<uniquifier>';
-    color:rgb(255, 0, 0);
+    font-family: 'Sour Gummy', sans-serif; /* Use the font name from Google Fonts */
+    color: rgb(255, 0, 0);
     font-size: large;
-    p.thicker {
-        font-weight: 900;
-      }
-}
+  }
 
 header{
     background-color: rgb(166, 67, 67);
