@@ -52,6 +52,7 @@ body {
     padding: 8px;
     text-decoration: none;
     transition: 0.2s;
+    border: 8px;
   }
   
   .button:link {
