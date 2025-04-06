@@ -130,4 +130,17 @@ max-width: 100%;
 
 
 
+.rounded-button {
+  background-color: lightgreen; /* Starting color */
+  color: white; /* Text color */
+  padding: 15px 30px; /* Padding inside the button */
+  border: none; /* No border */
+  border-radius: 20px; /* Rounded corners */
+  font-size: 18px; /* Text size */
+  cursor: pointer; /* Change cursor to a pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth color transition */
+}
 
+.rounded-button:hover {
+  background-color: lightcoral; /* Color on hover */
+}
