@@ -1,72 +1,38 @@
-
-
-
-.sour-gummy-<uniquifier> {
-    font-family: "Sour Gummy", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: light;
-    font-variation-settings:
-      "wdth" 100;
-  }
-  
-  .right-header {
-    float: right;
-  }
-
-  .image-paragraph-container {
-    display: flex;
-    align-items: center;
-  }
-  
-  .image-paragraph-container img {
-    width: 400px;
-    margin-right: 20px; 
-  }
-  
-  .mirrored {
-    flex-direction: row-reverse;
-  }
-  
-  .mirrored img {
-    margin-right: 0; 
-    margin-left: 20px; 
-  }
-
-  body {
+body {
     margin: 0;
-    font-family: 'Sour Gummy', sans-serif; /* Use the font name from Google Fonts */
+    font-family: 'Sour Gummy', sans-serif;
     color: rgb(255, 0, 0);
     font-size: large;
   }
-
-header{
+  
+  header {
     background-color: rgb(166, 67, 67);
     color: white;
     width: 98%;
     padding: 1%;
     text-align: center;
-}
-.nezh{
-    float: left;
-    padding: 5%;
-}
-nav{
+  }
+  
+  nav {
     width: 100%;
-    position:sticky;
+    position: sticky;
     top: 0;
     overflow: hidden;
     background-color: blue;
-}
-
-.menu{
+  }
+  
+  .menu {
     margin: 0;
     padding: 8px;
     background-color: rgb(51, 148, 90);
-}
-
-.buttonbetter {
-    background-color: #aa0a04; /* Green */
+  }
+  
+  .menu li {
+    display: inline;
+  }
+  
+  .buttonbetter {
+    background-color: #aa0a04;
     border: none;
     color: white;
     padding: 30px 64px;
@@ -75,42 +41,57 @@ nav{
     display: inline-block;
     font-size: 16px;
   }
-
-.menu li{
-    display: inline;
-}
-
-.button{
+  
+  .button {
     font-size: 200%;
     font-style: none;
     color: rgb(255, 255, 255);
     padding: 8px;
     text-decoration: none;
     transition: 0.2s;
-}
-
-section{
-    width:50%;
-    margin: 0 auto;
-    min-height: 500px;
-}
-
-.button:link{
+  }
+  
+  .button:link {
     background-color: rgb(52, 148, 90);
     color: white;
-}
-
-.button:hover{
+  }
+  
+  .button:hover {
     background-color: rgb(120, 110, 212);
     border: 2px solid white;
-}
-
-footer{
+  }
+  
+  section {
+    width: 50%;
+    margin: 0 auto;
+    min-height: 500px;
+  }
+  
+  footer {
     background-color: rgb(166, 67, 67);
     color: white;
     width: 98%;
     padding: 1%;
     text-align: center;
     min-height: 50px;
-    position:bottom;
-}
+    position: bottom;
+  }
+  
+  .image-paragraph-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .image-paragraph-container img {
+    width: 400px;
+    margin-right: 20px;
+  }
+  
+  .mirrored {
+    flex-direction: row-reverse;
+  }
+  
+  .mirrored img {
+    margin-right: 0;
+    margin-left: 20px;
+  }
