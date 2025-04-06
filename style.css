@@ -109,3 +109,13 @@ body {
     width: 400px; 
     margin-left: 20px; 
   }
+
+  .nezh{
+    float: left;
+    padding: 5%;
+}
+
+.unnezh{
+  float: right;
+  padding: 5%;
+}
