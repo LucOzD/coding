@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Sour Gummy', sans-serif;
-    color: rgb(255, 0, 0);
+    color: rgb(255, 204, 204);
     font-size: large;
     background-repeat: no-repeat;
   background-attachment: fixed;
@@ -9,7 +9,7 @@ body {
   }
   
   header {
-    background-color: rgb(166, 67, 67);
+    background-color: rgb(173, 216, 230);
     color: white;
     width: 98%;
     padding: 1%;
@@ -27,7 +27,7 @@ body {
   .menu {
     margin: 0;
     padding: 8px;
-    background-color: rgb(51, 148, 90);
+    background-color: rgb(230, 255, 230);
   }
   
   .menu li {
@@ -71,7 +71,7 @@ body {
   }
   
   footer {
-    background-color: rgb(166, 67, 67);
+    background-color: rgb(230, 230, 250);
     color: white;
     width: 98%;
     padding: 1%;
