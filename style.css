@@ -98,3 +98,14 @@ body {
     margin-right: 0;
     margin-left: 20px;
   }
+
+  .image-text-container {
+    display: flex; 
+    align-items: center; 
+    flex-direction: row-reverse; 
+  }
+  
+  .image-text-container img {
+    width: 400px; 
+    margin-left: 20px; 
+  }
